@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width-device-width, initial scale=1">
 	<meta charset="UTF-8">
 	<title></title>
 </head>
+
+<header>
+	<link rel="stylesheet" type="text/css" href="app.css" media="screen" />
+	<h1><div style="text-align: left"><img src="bistro.jpg" width="200" height="200" alt=""></div>My Restaurant</h1>
+    	    <nav id="ddmenu">
+   			 <div class="menu-icon"></div>
+   			 <ul>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="statuses.html">Order</a></li>
+			<li><a href="statuses.html">Statuses</a></li></ul>
+   			 </nav>
+</header>
+
 <body>
-	<h1>My Restaurant</h1>
     <button type="button" class="btn-primary">Button 1</button>
     <button type="button" class="btn-secondary">Button 2</button>
     <br>
-    <h2>Order Statuses</h2>
+    <h2><div style="text-align: left">Order Statuses</div></h2>
     <br>
     <table>
 	<thead>
 		<tr>
-			<th>Name</th>
-			<th>Picture</th>
-			<th>Ingredients</th>
+			<th>Created</th>
+			<th>Item</th>
+			<th>Customer</th>
+			<th>Status</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Ginger Sesame Glazed Salmon</td>
-			<td><img src="SoySearedSalmon copy.png" width="400" height="300" alt=""></td>
+			<td>June 09 12:00pm</td>
+			<td><img src="SoySearedSalmon copy.png" width="400" height="300" alt="">
+			<br>Ginger Sesame Glazed Salmon</td>
 			<td>10 oz. Salmon Filet,
                 2 tbsp. Soy Sauce (or coconut aminos),
                 2 tsp. Sesame Oil,
@@ -80,52 +95,8 @@
 </form>
 
 </body>
+
+<footer>
+  <p>&copy; 2017 My Restaurant Inc., All Rights Reserved </p>
+</footer>
 </html>
-
-<style>
-.btn-primary {
-	color: #14e89a;
-	background-color: #009688;
-	font-size: 16px;
-	padding: 0.5em 1em;
-}
-
-.btn-secondary {
-	color: #495151;
-	background-color: #60d6d6;
-	font-size: 16px;
-	padding: 0.5em 1em;
-}
-
-table {
-	border: 1px solid #E5E299;
-}
-tr {
-	background-color: #E5E299;
-}
-
-input {
-	font-size: 16px;
-	padding: 0.5em 1em;
-}
-
-.btn-primary:hover {
-    background-color: #DEB887;
-    color: white;
-}
-
-.btn-secondary:hover {
-    background-color: #DEB887;
-    color: #495151;
-}
-
-.btn-primary:active {
-    background-color: #000056;
-    color: white;
-}
-
-.btn-secondary:active {
-    background-color: #000000;
-    color: white;
-}
-</style>

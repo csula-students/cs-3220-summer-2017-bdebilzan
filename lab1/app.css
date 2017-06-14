@@ -1,3 +1,135 @@
+header { 
+    min-height: 100px;
+    margin-left: 0%;
+    margin-right: 10%;
+}
+
 body {
-    
+    min-height: 400px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer { 
+    min-height: 100px;
+    display: block;
+    text-align: left;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 1%;
+    margin-right: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.btn-primary {
+	color: #14e89a;
+	background-color: #009688;
+	font-size: 16px;
+	padding: 0.5em 1em;
+}
+
+.btn-secondary {
+	color: #495151;
+	background-color: #60d6d6;
+	font-size: 16px;
+	padding: 0.5em 1em;
+}
+
+table {
+	border: 1px solid #E5E299;
+}
+
+tr {
+	background-color: #E5E299;
+}
+
+input {
+	font-size: 16px;
+	padding: 0.5em 1em;
+}
+
+.btn-primary:hover {
+    background-color: #DEB887;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #DEB887;
+    color: #495151;
+}
+
+.btn-primary:active {
+    background-color: #000056;
+    color: white;
+}
+
+.btn-secondary:active {
+    background-color: #000000;
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+#ddmenu div.menu-icon {
+    display:none;
+}
+/*styles for mobile*/
+@media only screen and (max-width: 480px) {
+   li {
+   /* float: left;*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 }
