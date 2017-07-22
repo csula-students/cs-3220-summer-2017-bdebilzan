@@ -1,0 +1,174 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+header {
+	color black;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em 0.25em 0.5em 0.25em;
+}
+
+.navigation {
+	color:gray;
+	font-size: 16px;
+	font-family: 'Calibri', cursive;
+	text-decoration: none;
+	background-color: #ccc;
+	border-radius: 25px;
+	padding: 0.5em;
+}
+.navigation:hover {
+	color: black;
+}
+main {
+	font-family: 'Calibri';
+	font-size: 20px;
+	padding: 0.5em;
+	color:black;
+}
+footer {
+	font-size: 16px;
+	padding: 1em;
+	color: black;
+}
+h1 {
+	font-size: 36px;
+	font-family: 'Cinzel', serif;
+	margin: 0;
+}
+h2 {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 24px;
+	font-style: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+h4 {
+	font-size: 20px;
+	font-style: bold;
+	text-transform: uppercase;
+	margin: 0px;
+}
+h5 {
+	font-size: 16px;
+	font-style: bold;
+}
+.quote {
+	font-style: italic;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: center;
+	vertical-align: center;
+	width: 10%;
+}
+.td_status {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 0px;
+	border-right: 0px;
+}
+.cart-table {
+	max-width: 50%;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 0px;
+	border-right: 0px;
+}
+.cart-table.title {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.order_status_table {
+	max-width: 60%;
+	border-top: 1px solid tan;
+	border-bottom: 1px solid tan;
+	border-left: 0px;
+	border-right: 0px;
+}
+.order_status_table.title {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.order_status_table.text {
+	font-size: 24px;
+	font-weight: bold;
+}
+#inventory_table {
+	max-width: 65%;
+}
+.menu1 {
+	width: 10%;
+}
+.menu2 {
+	max-width: 20%;
+}
+.menu3 {
+	max-width: 60%;
+
+}
+.menu1 {
+	max-width: 20%;
+}
+.horizontal {
+	border-top: 1px solid tan;
+	border-bottom: 1px solid tan;
+	border-left: 0px;
+	border-right: 0px;
+}
+p.title {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.delivered, .pickup {
+	font-style: italic;
+}
+button {
+	color: gray;
+	font-size: 16px;
+	font-family: 'Calibri';
+	text-decoration: none;
+	background-color: #ccc;
+	border-radius: 5px;
+	padding: 0.3em;
+}
+button:hover {
+	color: black;
+}
+.link {
+	text-decoration: none;
+	color: gray;
+}
+.link:hover {
+	color: black;
+}
+.small {
+	width: 75px;
+	height: 75px;
+}
+.medium {
+	width: 150px;
+	height: 150px;
+}
+.home {
+	border: none;
+	max-width: 80%;
+}
